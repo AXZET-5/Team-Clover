@@ -1,0 +1,107 @@
+body {
+    background-color: black;
+}
+
+
+
+
+
+
+.Separator {
+    font-size: 20px;
+}
+
+.Card {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(50,50,50);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 10px rgb(255,255,255);
+    padding: 10px;
+    width: 80%;
+}
+
+.GridContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+@media only screen and (min-width: 800px) {
+    .GridContainer {
+        grid-template-columns: fit-content(8ch) fit-content(8ch) 1fr 1fr;
+    }
+    .GridChild {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .SmallImage {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .GridChild > p {
+        text-align: left;
+    }
+}
+
+
+
+
+
+
+.Center {
+    text-align: center
+}
+
+.BigHeading {
+    color: white;
+    font: bold 40px Sans-Serif;
+}
+
+.SubHeading {
+    color: white;
+    font: bold 30px Sans-Serif;
+}
+
+.Content {
+    color: rgb(240,240,240);
+    font: 20px Sans-Serif;
+}
+
+.BigImage {
+    width: 100%;
+    max-width: 400px !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 20px;
+}
+
+.SmallImage {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    border-radius: 1000px;
+    border: 2px solid white;
+}
+
+.InstaLink {
+    color: white;
+    background-color: rgb(250, 62, 125);
+    font: bold 16px Sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration-line: none !important;
+    transition-duration: 0.2s;
+    display: inline-block;
+    text-align: center;
+}
+
+.InstaLink:hover {
+    background-color: white;
+    color: rgb(250, 62, 125);
+    scale: 1.10;
+}

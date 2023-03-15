@@ -29,7 +29,7 @@ body {
 
 @media only screen and (min-width: 800px) {
     .GridContainer {
-        grid-template-columns: fit-content(8ch) fit-content(8ch) 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
     .GridChild {
         margin-top: auto;

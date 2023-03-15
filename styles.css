@@ -42,6 +42,9 @@ body {
     .GridChild > p {
         text-align: left;
     }
+    .GridChild > h1 {
+        text-align: left;
+    }
 }
 
 
@@ -78,7 +81,7 @@ body {
 }
 
 .SmallImage {
-    width: 80%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;

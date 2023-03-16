@@ -108,3 +108,7 @@ body {
     color: rgb(250, 62, 125);
     scale: 2;
 }
+
+a {
+    color: rgb(150,150,255);
+}

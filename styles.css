@@ -31,10 +31,7 @@ body {
     .GridContainer {
         grid-template-columns: 1fr 1fr;
     }
-    .GridChild {
-        margin-top: auto;
-        margin-bottom: auto;
-    }
+
     .SmallImage {
         margin-left: 30px;
         margin-right: 30px;

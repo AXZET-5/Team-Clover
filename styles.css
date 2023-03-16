@@ -94,7 +94,7 @@ body {
 .InstaLink {
     color: white;
     background-color: rgb(250, 62, 125);
-    font: bold 16px Sans-serif;
+    font: bold 20px Sans-serif;
     padding: 10px;
     border-radius: 10px;
     text-decoration-line: none !important;
@@ -106,5 +106,5 @@ body {
 .InstaLink:hover {
     background-color: white;
     color: rgb(250, 62, 125);
-    scale: 1.10;
+    scale: 2;
 }

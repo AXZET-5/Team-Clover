@@ -117,7 +117,7 @@ body {
 }
 
 .Sticker:hover {
-    background-color: white;
+    background-color: white !important;
     color: blue !important;
 }
 

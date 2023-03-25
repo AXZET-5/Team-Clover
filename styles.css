@@ -102,6 +102,8 @@ body {
     transition-duration: 0.2s;
     display: inline-block;
     text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .InstaLink:hover {

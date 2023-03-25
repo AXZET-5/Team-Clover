@@ -110,6 +110,14 @@ body {
     scale: 1.5;
 }
 
+.Sticker {
+    background-color: blue !important;
+}
+
+.Sticker:hover {
+    color: blue !important;
+}
+
 a {
     color: rgb(150,150,255);
 }
